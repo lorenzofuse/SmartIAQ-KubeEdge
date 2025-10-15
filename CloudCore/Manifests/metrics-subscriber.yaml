@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: metrics-subscriber
+spec:
+  nodeSelector:
+    kubernetes.io/hostname: ubuntu-vmcloudcore
+  hostNetwork: true
+  containers:
+    - name: metrics-subscriber
+      image: metrics-subscriber:latest
+      imagePullPolicy: IfNotPresent

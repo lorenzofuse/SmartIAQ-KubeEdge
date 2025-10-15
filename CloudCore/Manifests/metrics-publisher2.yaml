@@ -1,0 +1,11 @@
+kind: Pod
+metadata:
+  name: metrics-publisher-vm2
+spec:
+  nodeSelector:
+    kubernetes.io/hostname: ubuntu-edgecorevm2
+  hostNetwork: true
+  containers:
+    - name: metrics-publisher
+      image: metrics-publisher:latest
+      imagePullPolicy: IfNotPresent

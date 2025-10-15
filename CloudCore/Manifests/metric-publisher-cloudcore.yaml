@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: metrics-publisher-cloudcore
+spec:
+  nodeSelector:
+    kubernetes.io/hostname: ubuntu-vmcloudcore
+  hostNetwork: true
+  containers:
+    - name: metrics-publisher
+      image: metrics-publisher:latest
+      imagePullPolicy: IfNotPresent

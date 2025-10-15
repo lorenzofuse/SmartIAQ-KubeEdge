@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: metrics-publisher
+spec:
+  nodeSelector:
+    kubernetes.io/hostname: ubuntu-edgecorevm
+  hostNetwork: true
+  containers:
+    - name: metrics-publisher
+      image: metrics-publisher:latest
+      imagePullPolicy: IfNotPresent
