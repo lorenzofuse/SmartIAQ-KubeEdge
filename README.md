@@ -23,7 +23,8 @@ L’architettura si articola su due livelli principali:
   Coordina la rete, riceve e valida i dati pubblicati dai nodi edge, gestisce la persistenza tramite **PostgreSQL** e la visualizzazione tramite **Grafana**.  
   Componenti principali:
   - `subscriber/` – ricezione e decifratura dei messaggi IAQ  
-  - `metrics-subscriber/` – raccolta e persistenza delle metriche di sistema  
+  - `metrics-subscriber/` – raccolta e persistenza delle metriche di sistema
+  - `vm-metrics-publisher-cloudcore/` – invio delle metriche di sistema della VM che ospita il CloudCore
   - `manifests/` – file YAML per il deploy su MicroK8s / KubeEdge  
 
 - **Nodi Edge (EdgeCore)**  
@@ -31,7 +32,6 @@ L’architettura si articola su due livelli principali:
   Componenti principali:
   - `iaq-publisher-zoneX/` – pubblicazione dei parametri ambientali  
   - `vm-metrics-publisher/` – invio delle metriche delle VM  
-  - `manifests/` – configurazioni di deploy lato edge  
 
 La comunicazione è cifrata mediante **ECDHE + AES-256 in modalità CFB**, con firma **ECDSA** per garantire integrità e autenticità.
 
