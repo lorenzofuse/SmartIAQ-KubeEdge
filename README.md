@@ -1,7 +1,9 @@
 ## SmartIAQ – KubeEdge
  **Configurazione ed implementazione di una rete basata su microservizi tramite la piattaforma KubeEdge.**  
 
-![Schema dell’architettura SmartIAQ](SmartIAQ/Demo.png)
+<p align="center">
+  <img src="SmartIAQ/Demo" alt="Demo SmartIAQ" width="600">
+</p>
  
 
 ---
@@ -34,8 +36,11 @@ L’architettura si articola su due livelli principali:
 La comunicazione è cifrata mediante **ECDHE + AES-256 in modalità CFB**, con firma **ECDSA** per garantire integrità e autenticità.
 
 
-![Schema dell’architettura SmartIAQ](SmartIAQ/architecture-diagram.png)
- 
+
+<p align="center">
+  <img src="SmartIAQ/architecture-diagram.png" alt="Arch SmartIAQ" width="600">
+</p>
+
 ---
 
 ##  Struttura della repository
