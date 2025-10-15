@@ -1,6 +1,9 @@
 ## SmartIAQ – KubeEdge
  **Configurazione ed implementazione di una rete basata su microservizi tramite la piattaforma KubeEdge.**  
 
+![Schema dell’architettura SmartIAQ](SmartIAQ/architecture-diagram.png)
+ 
+
 ---
 
 ## Obiettivo
