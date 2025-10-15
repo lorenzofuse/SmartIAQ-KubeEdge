@@ -2,7 +2,7 @@
  **Configurazione ed implementazione di una rete basata su microservizi tramite la piattaforma KubeEdge.**  
 
 <p align="center">
-  <img src="SmartIAQ/Demo" alt="Demo SmartIAQ" width="600">
+  <img src="SmartIAQ/Demo.png" alt="Demo SmartIAQ" width="600">
 </p>
  
 
