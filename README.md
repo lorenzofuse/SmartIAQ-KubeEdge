@@ -50,7 +50,7 @@ La comunicazione è cifrata mediante **ECDHE + AES-256 in modalità CFB**, con f
 | **CloudCore/** | Microservizi lato cloud e file di deploy |
 | **EdgeCore/** | Microservizi lato edge e publisher |
 | **SmartIAQ/** | Materiale di supporto: diagrammi, demo, dashboard e riassunto tesi |
-| **dataset/** | Dataset di riferimento (*BuildPred – Grenoble*) utilizzato per i test |
+| **dataset/** | Dataset di riferimento ([BuildPred – Grenoble](https://github.com/CampusIoT/datasets/tree/main/BuildPred)) utilizzato per le simulazioni |
 
 ---
 
