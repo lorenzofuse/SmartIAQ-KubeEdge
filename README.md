@@ -46,9 +46,17 @@ La comunicazione è cifrata mediante **ECDHE + AES-256 in modalità CFB**, con f
 
 ## Riferimento completo
 
-Il dettaglio dell’implementazione, delle configurazioni e delle metriche di valutazione è riportato nel **capitolo di implementazione** della tesi di laurea allegata.
+<p>Il dettaglio dell’implementazione, delle configurazioni e delle metriche di valutazione è riportato nel <strong>capitolo di implementazione</strong> della tesi di laurea allegata.</p>
 
- *[Tesi completa – “Configurazione ed implementazione di una rete basata su microservizi tramite la piattaforma KubeEdge”]*(https://github.com/user-attachments/files/22922343/Tesi_Fuse_Lorenzo_753168.pdf)
+<p>
+  📄 <a href="https://github.com/user-attachments/files/22922343/Tesi_Fuse_Lorenzo_753168.pdf" target="_blank">
+  <strong>Tesi completa – “Configurazione ed implementazione di una rete basata su microservizi tramite la piattaforma KubeEdge”</strong>
+  </a>
+</p>
 
-Autore: *Lorenzo Fusè*, Relatrice: *Prof.ssa Alessandra Rizzardi*, Correlatrice: *Prof.ssa Sabrina Sicari* 
-Università degli Studi dell’Insubria, A.A. 2024/2025
+<hr>
+
+<p><strong>Autore:</strong> Lorenzo Fusè<br>
+<strong>Relatrice:</strong> Prof.ssa Alessandra Rizzardi<br>
+<strong>Correlatrice:</strong> Prof.ssa Sabrina Sicari<br>
+<strong>Università degli Studi dell’Insubria – A.A. 2024/2025</strong></p>
