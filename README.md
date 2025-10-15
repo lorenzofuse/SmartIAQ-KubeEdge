@@ -1,19 +1,16 @@
-[Tesi_Fusè_Lorenzo_753168.pdf](https://github.com/user-attachments/files/22922341/Tesi_Fuse_Lorenzo_753168.pdf)# SmartIAQ – KubeEdge
-
-Progetto di tesi triennale: **Configurazione ed implementazione di una rete basata su microservizi tramite la piattaforma KubeEdge**  
-Autore: *Lorenzo Fusè*  
-Università degli Studi dell’Insubria – A.A. 2024/2025
+## SmartIAQ – KubeEdge
+ **Configurazione ed implementazione di una rete basata su microservizi tramite la piattaforma KubeEdge**  
 
 ---
 
-## 🎯 Obiettivo
+## Obiettivo
 
 Il progetto realizza un’infrastruttura **edge–cloud** basata su **microservizi containerizzati**, con orchestrazione tramite **KubeEdge**.  
 Lo scenario d’uso riguarda il monitoraggio della qualità dell’aria indoor (*Indoor Air Quality – IAQ*) e delle risorse virtuali di un ambiente distribuito.
 
 ---
 
-## ⚙️ Architettura generale
+## Architettura generale
 
 L’architettura si articola su due livelli principali:
 
@@ -35,7 +32,7 @@ La comunicazione è cifrata mediante **ECDHE + AES-256 in modalità CFB**, con f
 
 ---
 
-## 🧱 Struttura della repository
+##  Struttura della repository
 
 | Cartella | Contenuto |
 |-----------|-----------|
@@ -47,11 +44,11 @@ La comunicazione è cifrata mediante **ECDHE + AES-256 in modalità CFB**, con f
 ---
 
 
-## 📎 Riferimento completo
+## Riferimento completo
 
 Il dettaglio dell’implementazione, delle configurazioni e delle metriche di valutazione è riportato nel **capitolo di implementazione** della tesi di laurea allegata.
 
-📄 *[Tesi completa – “Configurazione ed implementazione di una rete basata su microservizi tramite la piattaforma KubeEdge”]*(https://github.com/user-attachments/files/22922343/Tesi_Fuse_Lorenzo_753168.pdf)
+ *[Tesi completa – “Configurazione ed implementazione di una rete basata su microservizi tramite la piattaforma KubeEdge”]*(https://github.com/user-attachments/files/22922343/Tesi_Fuse_Lorenzo_753168.pdf)
 
 Autore: *Lorenzo Fusè*, Relatrice: *Prof.ssa Alessandra Rizzardi*, Correlatrice: *Prof.ssa Sabrina Sicari* 
 Università degli Studi dell’Insubria, A.A. 2024/2025
